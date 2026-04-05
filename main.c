@@ -1,7 +1,9 @@
 #include <stdio.h>
 
+int assembly(void);
+
 int main(void)
 {
-  printf("Resultado: %d\n", 1);
+  printf("Resultado: %d\n", assembly());
   return 0;
 }
